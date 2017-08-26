@@ -57,7 +57,7 @@ static NSString *dxCell = @"cell";
     
     DXTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:dxCell forIndexPath:indexPath];
     
-    cell.backgroundColor = [UIColor redColor];
+    cell.backgroundColor = [UIColor yellowColor];
    
     return cell;
 }
