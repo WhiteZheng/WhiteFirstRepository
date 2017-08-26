@@ -29,6 +29,7 @@ static NSString *dxCell = @"cell";
     self.dxImageView.image = [UIImage imageNamed:@"timg"];
 
     
+    
     //类似父视图
     self.dxHeadView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, screenW, 300)];
     [self.dxHeadView addSubview:self.dxImageView];
